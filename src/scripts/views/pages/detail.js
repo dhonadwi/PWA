@@ -1,9 +1,11 @@
 import TheMovieSourceDb from '../../data/themovie-source';
-import { createMovieDetailTemplate } from '../templates/template-creator';
+import { createMovieDetailTemplate, createLikeButtonTemplate } from '../templates/template-creator';
+
 const Detail = {
   async render() {
     return `
       <div id="movie" class="row"></div>
+      <div id="likeButtonContainer"></div>
     `;
   },
 
@@ -14,6 +16,8 @@ const Detail = {
     const movieContainer = document.querySelector('#movie');
     movieContainer.innerHTML = createMovieDetailTemplate(movie);
     // console.log(movie);
+    const likeButtonContainer = document.querySelector('#likeButtonContainer');
+    likeButtonContainer.innerHTML = createLikeButtonTemplate();
   },
 };
 

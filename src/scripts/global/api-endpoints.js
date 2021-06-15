@@ -1,4 +1,4 @@
-import CONFIG from "./config";
+import CONFIG from './config';
 
 const API_ENDPOINTS = {
   HOME: `${CONFIG.BASE_URL}movie/now_playing?api_key=${CONFIG.KEY}&language=en-US&page=1`,

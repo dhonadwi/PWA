@@ -8,12 +8,12 @@ const carouselMini = {
     <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
     <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
   </div>
-    `
+    `;
   },
 
   async afterRender() {
 
-  }
-}
+  },
+};
 
 export default carouselMini;

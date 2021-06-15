@@ -7,11 +7,11 @@ import Detail from '../views/pages/detail';
 
 const routes = {
   '': home,
-  'home': home,
-  'favorites': favorites,
-  'about': about,
-  'upcoming': upcoming,
-  'detail': Detail,
+  home,
+  favorites,
+  about,
+  upcoming,
+  detail: Detail,
 };
 
 export default routes;
