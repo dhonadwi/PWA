@@ -58,11 +58,11 @@ const createMovieItemTemplate = (movie) => `
   <div class="col s12 m6 l4">
     <div class="card">
       <div class="card-image">
-        <img src="${movie.backdrop_path ? CONFIG.BASE_IMAGE_URL + movie.backdrop_path : 'https://picsum.photos/id/666/800/450?grayscale'}">
+        <img src="${movie.backdrop_path ? CONFIG.BASE_IMAGE_URL + movie.backdrop_path : CONFIG.BASE_IMAGE_URL + movie.poster_path}">
           <span class="card-title">${movie.title}</span>
       </div>
       <div class="card-content">
-        <p>${movie.overview.substr(0, 100)} ...</p>
+        <p>${movie.overview.substr(0, 70)}. . . .</p>
       </div>
       <div class="card-action">
         <a href="${`#detail/${movie.id}`}">Detail</a>

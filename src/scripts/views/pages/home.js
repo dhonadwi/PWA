@@ -15,7 +15,6 @@ const home = {
     const moviesContainer = document.querySelector('#movies');
     movies.forEach((movie) => {
       moviesContainer.innerHTML += createMovieItemTemplate(movie);
-      console.log(movie);
     });
   },
 
