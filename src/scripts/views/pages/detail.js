@@ -4,7 +4,7 @@ import { createMovieDetailTemplate, createLikeButtonTemplate } from '../template
 const Detail = {
   async render() {
     return `
-      <div id="movie" class="row"></div>
+      <div id="movie" class="row card"></div>
       <div id="likeButtonContainer"></div>
     `;
   },

@@ -36,3 +36,21 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 16px;
+  column-gap: 10px;
+}
+
+
+/* Styling pendukung */
+.wrapper div {
+  padding: 32px;
+}
+
+.box-image {
+  grid-row-start: 1; /* box1 akan dimulai dari kolom garis pertama */
+  grid-row-end: 3; /* dan berakhir di kolom garis ketiga */
+}

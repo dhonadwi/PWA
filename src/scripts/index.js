@@ -2,6 +2,7 @@ import 'regenerator-runtime';
 import '../styles/materialize.min.css';
 import './js/materialize.min.js';
 import '../styles/styles.css';
+import '../styles/responsive.css';
 import renderPage from './views/app';
 
 window.addEventListener('hashchange', () => {
