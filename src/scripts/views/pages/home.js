@@ -3,7 +3,7 @@ import { createMovieDetailTemplate, createMovieItemTemplate } from '../templates
 const home = {
   async render() {
     return `
-    <h1>Home uy</h1>
+    <h1>Playing Now</h1>
     <div id="movies" class="row">
     </div>
     `
